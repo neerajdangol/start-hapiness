@@ -2,7 +2,7 @@
 
 const Promise = require('bluebird');
 
-const mongoose = require('k7-mongoose').mongoose;
+const mongoose = require('k7-mongoose').mongoose();
 
 const Schema = new mongoose.Schema({
   name: {
